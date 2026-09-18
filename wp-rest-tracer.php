@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name:       REST API Tracer
- * Description:       Records REST API endpoints by namespace, traces every hook callback, SQL query and HTTP request between request and response with nested timings, and renders interactive graph views — flame, icicle, sunburst and a node-graph flow diagram — with a live, no-reload trace list.
+ * Description:       Records REST API endpoints by namespace, traces every hook callback, SQL query and HTTP request between request and response with nested timings, and renders interactive graph views — a flame graph and a node-map flow diagram — with a live, no-reload trace list.
  * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      8.0
  * Author:            rafiahmedd
  * Author URI:        https://github.com/rafiahmedd
- * License:           GPL-2.0-or-later
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * License:           MIT
+ * License URI:       https://opensource.org/licenses/MIT
  * Text Domain:       rest-tracer
  */
 

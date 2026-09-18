@@ -15,3 +15,6 @@ $wpdb->query( "DROP TABLE IF EXISTS {$table}" );
 
 delete_option( 'rest_tracer_settings' );
 delete_option( 'rest_tracer_version' );
+
+// Per-user viewer preferences.
+delete_metadata( 'user', 0, 'rest_tracer_prefs', '', true );
